@@ -43,6 +43,8 @@ def findData(dir, tree, var):
         print('Variable does not exist in this tree!')
         return None
 
+#a = findData(allenMVAdir+tupleTrees[1], trunks[0], 'trk_OWNPV_CHI2')
+#print(a[:10])
 
 def exploreBranch(dir, tree):
     '''
@@ -56,6 +58,5 @@ def exploreBranch(dir, tree):
 
     columnlist = ttree_data.columns
     return columnlist
-#a = exploreBranch(allenMVAdir+tupleTrees[1],trunks[1])
+#a= exploreBranch(allenMVAdir+tupleTrees[1],trunks[0])
 #for i in a: print(i)
-
